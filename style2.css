@@ -1,0 +1,99 @@
+body{
+	padding:0;
+	margin:0;
+	background-color: #E7E7F0;
+}
+
+header{
+	height: 50px;
+	color:white;
+	background-color: black;
+	text-align: center;
+}
+
+header span{
+	font-family: Arial;
+	font-size: 42px;
+}
+
+#portfolio{
+	font-size:26px;
+	margin-left: 5px;
+	font-family: Vivaldi;
+}
+
+#menu li{
+	float:right;
+	margin-right: 5px;
+}
+
+
+nav{
+	width:20%;
+	height: 679px;
+	border-right:1px solid black;
+}
+
+nav table{
+	margin:0;
+	padding:0;
+	font-size: 22px;
+	width:100%;
+}
+
+nav table tr td{
+	transition: all 0.6s;
+}
+
+nav table tr a{
+	text-decoration: none;
+	color:black;
+}
+
+nav table tr a:hover{
+	color:white;
+}
+
+nav table tr:hover{
+	background-color: black;
+}
+
+nav table td:hover{
+	color:white;
+	padding-left: 35px;
+}
+
+nav{
+	float:left;
+}
+
+#clear{
+	clear:both;
+}
+
+#content{
+	border-bottom: 1px solid black;
+	height: 650px;
+	text-align: center;
+	font-size: 22px;
+	font-family: Arial;
+}
+
+#content h1{
+	text-align: center;
+}
+
+#content img{
+	width:400px;
+	height: 250px;
+}
+
+footer{
+	color:white;
+	height: 60px;
+	background-color: black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-size: 43px;
+	font-family: Arial;
+}
